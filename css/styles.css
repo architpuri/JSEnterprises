@@ -1,0 +1,174 @@
+body {
+  font-family: "Montserrat";
+}
+
+h1{
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  opacity: 100%;
+}
+h2 {
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 1.8;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Sections */
+.coloured-section {
+  background-color: #454545;
+  color: #ffffff;
+}
+
+.white-section {
+  background-color: #ffffff;
+}
+
+/* Title Section */
+
+/* Navigation Bar */
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+  opacity: 100%;
+}
+.nav-item {
+  padding: 0 18px;
+  opacity: 100%;
+  font-weight: bold;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+#title {
+  background-image: url("../images/construction-home.jpg");
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  opacity: 70%;
+}
+
+/* Features Section */
+#features {
+  z-index: 1;
+  position: relative;
+}
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.feature-icon{
+  color: #ef8172;
+  size: 5rem;
+  margin-bottom: 1rem;
+}
+.feature-icon:hover {
+  color: #454545;
+}
+.feature-head{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.feature-describe {
+  color: #8f8f8f;
+}
+
+/* Testimonials */
+#testimonials {
+  text-align: center;
+  background-color:#454545;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Services Section */
+#services {
+  padding: 100px;
+  text-align: center;
+}
+
+.services-column {
+  padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+#cta {
+  text-align: center;
+  padding: 5%;
+}
+.btn-cta{
+  margin: 1% 2%;
+}
+
+a.selected {
+  background-color:#1F75CC;
+  color:white;
+  z-index:100;
+}
+
+.messagepop {
+  background-color:#FFFFFF;
+  border:1px solid #999999;
+  cursor:default;
+  display:none;
+  margin-top: 15px;
+  position:absolute;
+  text-align:left;
+  width:394px;
+  z-index:50;
+  padding: 25px 25px 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 3px;
+  padding-left: 15px;
+  text-indent: -15px;
+}
+
+.messagepop p, .messagepop.div {
+  border-bottom: 1px solid #EFEFEF;
+  margin: 8px 0;
+  padding-bottom: 8px;
+}
+
+#footer {
+  padding: 5%;
+  text-align: center;
+}
+.social-icon{
+  padding: 1% 1%;
+}
