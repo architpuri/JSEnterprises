@@ -1,0 +1,30 @@
+https://www.sakneen.com/en/house/5f3afeb9891a89006d315664
+
+https://www.sakneen.com/en/sell-form
+
+https://www.sakneen.com/en/mortgage - different bank options
+
+https://www.sakneen.com/en/careers - nahi daalna
+
+0 brokerage from customer
+
+blog ki jgh about page
+
+sakneen same - sell,finance, search home page same find your home
+
+interior page - https://www.bricknbolt.com/cost-estimator
+
+map feature
+
+mail 
+
+admin login
+
+https://medium.com/@karthi.net/how-to-deploy-angular-6-spring-boot-app-as-single-deployment-unit-a0a122860ce8 -AngularSping website steps
+
+
+admin portal
+all location-site list - add, edit, view, delete
+client list - client info, status, comment, assigned to,current status, last contacted on
+
+multiplatform support
