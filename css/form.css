@@ -1,0 +1,25 @@
+
+.form-style{
+    border : none;
+    border-bottom : 1px solid #000;
+    background-color : transparent;
+    width: 90%;   
+}
+.section-style {
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+.validation-error {
+    font-style: italic;
+    color: red;
+    text-align: left;
+
+}
+.title-style {
+    font-weight: bold;
+}
+.add-background {
+    background-image:url(/images/DecorImage.jpeg);
+}

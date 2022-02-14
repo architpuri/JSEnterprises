@@ -7,75 +7,124 @@
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Ubuntu&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Ubuntu&display=swap"
+    rel="stylesheet">
 
   <!-- CSS Stylesheets -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/form.css">
 
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/98cff03b27.js" crossorigin="anonymous"></script>
 
   <!-- Bootstrap Scripts -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+    integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+    crossorigin="anonymous"></script>
 </head>
 
 <body>
 
   <section id="title">
-    <div class="container-fluid">
-      <!-- Nav Bar -->
-      <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="">JSEnterprises</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#footer">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#services">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#testimonials">Projects</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
 
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="">J S Enterprises</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#footer">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonials">Projects</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </section>
+  <section id="intro" style="width: 100%;">
     <!-- Title -->
-      <div class="row">
-        <div class ="col-lg-6">
-          <h1>We Build Structures & Relationships to Last.</h1>
-        </div>
-        <div class = "col-lg-6">
+    <div class="container-fluid">
+      <div style=" background-image:url(images/DecorImage.jpeg)">
+        <div class="row ">
+          <div class="col-lg-6">
+            <h1>One Stop Solution For All Your Home Interior Needs</h1>
+          </div>
+          <div class="col-lg-4">
+            <section class="section-style">
+              <label class="title-style"> BOOK A CONSULTATION </label>
+              </br>
+              <form action="action_page.php" class="was-validated">
+                <div>
+                  <input type="text" id="fname" class=" form-style" name="firstname" required
+                    placeholder="Enter your name">
+                  <div class="validation-error ">Please enter your name.</div>
+                </div>
+                </br>
+
+                <div>
+
+                  <input type="text" id="lname" class=" form-style" name="email" required
+                    placeholder="Enter your email">
+                  <div class="validation-error ">Please enter your email.</div>
+                </div>
+                </br>
+                <div>
+                  <input type="text" id="lname" class=" form-style" name="phoneNumber" required
+                    placeholder="Enter your mobile number">
+                  <div class="validation-error ">Please enter your phone number.</div>
+                </div>
+                </br>
+                <div>
+
+                  <input type="text" id="lname" class=" form-style" name="pinCode" required
+                    placeholder="Enter your residence pincode">
+                  <div class="validation-error ">Please enter pincode.</div>
+                </div>
+                </br>
+                <input type="submit" value="BOOK FREE CONSULTATION" class="title-style">
+
+              </form>
+            </section>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Features -->
-  <section  class = "white-section" id="features">
+  <section class="white-section" id="features">
     <div class="container-fluid">
-      <div class = "row">
-        <div class = "feature-box col-lg-4">
+      <div class="row">
+        <div class="feature-box col-lg-4">
           <i class="fas fa-check-circle fa-4x feature-icon"></i>
-          <h3 class = "feature-head">Dependable</h3>
-          <p class = "feature-describe">Give us your requirements and leave the rest to us.</p>
+          <h3 class="feature-head">Dependable</h3>
+          <p class="feature-describe">Give us your requirements and leave the rest to us.</p>
         </div>
-        <div class = "feature-box col-lg-4">
+        <div class="feature-box col-lg-4">
           <i class="fas fa-bullseye fa-4x feature-icon"></i>
-          <h3 class = "feature-head">Deadlines</h3>
-          <p class = "feature-describe">We guarantee to complete all projects within timeframe.</p>
+          <h3 class="feature-head">Deadlines</h3>
+          <p class="feature-describe">We guarantee to complete all projects within timeframe.</p>
         </div>
-        <div class = "feature-box col-lg-4">
+        <div class="feature-box col-lg-4">
           <i class="fas fa-heart fa-4x feature-icon"></i>
-          <h3 class = "feature-head">Passionate</h3>
-          <p class = "feature-describe">We love our work. That's why we are good at it.</p>
+          <h3 class="feature-head">Passionate</h3>
+          <p class="feature-describe">We love our work. That's why we are good at it.</p>
         </div>
       </div>
     </div>
@@ -84,7 +133,7 @@
 
   <!-- Testimonials -->
 
-  <section  class = "coloured-section" id="testimonials">
+  <section class="coloured-section" id="testimonials">
     <div id="testimonial-carousel" class="carousel slide" data-ride="false">
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -113,7 +162,7 @@
 
   <!-- Services -->
 
-  <section  class = "white-section" id="services">
+  <section class="white-section" id="services">
     <div class="row">
       <div class="services-column col-lg-4 col-md-6">
         <div class="card">
@@ -122,7 +171,9 @@
           </div>
           <div class="card-body">
             <p>
-              We offer quality tiling and painting solutions for interior and exterior of residential and commercial spaces that not only looks good but also lasts longer. We offer quality tiling and painting solutions for interior and exterior.
+              We offer quality tiling and painting solutions for interior and exterior of residential and commercial
+              spaces that not only looks good but also lasts longer. We offer quality tiling and painting solutions for
+              interior and exterior.
             </p>
           </div>
         </div>
@@ -134,7 +185,9 @@
           </div>
           <div class="card-body">
             <p>
-              We offer quality tiling and painting solutions for interior and exterior of residential and commercial spaces that not only looks good but also lasts longer. We offer quality tiling and painting solutions for interior and exterior.
+              We offer quality tiling and painting solutions for interior and exterior of residential and commercial
+              spaces that not only looks good but also lasts longer. We offer quality tiling and painting solutions for
+              interior and exterior.
             </p>
           </div>
         </div>
@@ -146,7 +199,9 @@
           </div>
           <div class="card-body">
             <p>
-              We offer quality tiling and painting solutions for interior and exterior of residential and commercial spaces that not only looks good but also lasts longer. We offer quality tiling and painting solutions for interior and exterior.
+              We offer quality tiling and painting solutions for interior and exterior of residential and commercial
+              spaces that not only looks good but also lasts longer. We offer quality tiling and painting solutions for
+              interior and exterior.
             </p>
           </div>
         </div>
@@ -154,15 +209,15 @@
     </div>
   </section>
 
-  <section class = "coloured-section" id = "cta">
+  <section class="coloured-section" id="cta">
     <div class="row">
       <div class="col-lg-3">
 
       </div>
-      <div class ="col-lg-6">
+      <div class="col-lg-4">
         <h4>Looking for a quality and affordable constructor for your next project?</h4>
       </div>
-      <div class="col-lg-2">
+      <div class="col-lg-4">
         <button type="button" class="btn btn-lg btn-block btn-outline-light btn-cta">
           Get Quote
         </button>
@@ -170,8 +225,8 @@
           <input type="text" name="name" required>
           <input type="email" name="email" required>
           <button type="submit">Send</button>
-     </form> 
-</form>
+        </form>
+        </form>
 
       </div>
       <div class="col-lg-4">
@@ -182,14 +237,14 @@
 
   <!-- Footer -->
 
-  <footer  class = "white-section" id="footer">
+  <footer class="white-section" id="footer">
     <i class="fas fa-phone-alt social-icon"></i>
     <i class="fas fa-envelope social-icon"></i>
     <i class="fab fa-instagram social-icon"></i>
     <p>© Copyright 2021 JS Enterprises</p>
   </footer>
 
-<script src="js/index.js" charset="utf-8"></script>
+  <script src="js/index.js" charset="utf-8"></script>
 </body>
 
 </html>
